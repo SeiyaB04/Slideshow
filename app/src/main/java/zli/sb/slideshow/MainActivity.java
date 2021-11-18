@@ -16,6 +16,9 @@ public class MainActivity extends AppCompatActivity {
         Button editButton = (Button) findViewById(R.id.editButton);
 
         editButton.setOnClickListener(v -> {
+
+
+
             Intent myIntent = new Intent(this, PictureActivity.class);
             startActivity(myIntent);
         });
